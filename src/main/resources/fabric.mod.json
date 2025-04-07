@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tpa-mod",
+	"version": "1.2",
+	"name": "tpa Mod",
+	"description": "介绍是这是歪比巴卜的歪比巴卜",
+	"authors": [
+		"Chu!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/tpa-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chu.tpa.TpaMod"
+		],
+		"fabric-datagen": [
+			"com.chu.tpa.TpaModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tpa-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": "*",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

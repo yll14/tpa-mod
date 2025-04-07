@@ -1,0 +1,35 @@
+# gradle
+.gradle/
+
+# 构建输出
+build/
+out/
+classes/
+
+# eclipse
+*.launch
+
+# IDEA 文件
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+*.DS_Store
+
+# Minecraft 相关
+run/
+
+# 其他
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
